@@ -1,0 +1,47 @@
+# WHEAT 2.18.2025
+Claire, Ryan, Nic
+
+Topics of Interest
+1. Import/Export
+    (a) By country
+    (b) By commodity - SRW and its relevant substitutes (include all classes of wheat)
+    (c) By size..?
+    (d) Byproducts (meal, oil for soybeans)
+
+2. WASDE (balance sheet)
+    (a) Inspections 
+        - Things that are meant to be exported, inspected
+        - **MORE important than export sales** because exports can get reneged on
+        - Note that final sales also gets documented, could be interesting to explore (how much we trust those exports?)
+        - Probably only domestic trade data... United States -> would be good to look into 
+    (b) Production Data
+        - Historical WASDE estimates
+            - Yield
+            - Acreage: Planted, Harvested
+            - Total Production = Yield * Harvested
+            - **Trying to forecast mid-season**
+    (c) Stocks, Stocks to Use Ratio
+
+3. Countries of Interest
+    - RU, UA, BR, AU, EU, AR, CN, JP, PH, MX
+    - How much of their total supply/imports that we're contributing to... usually just estimates -> lots of revisions
+
+4. Forecasting
+    - Goal: Forecast everything on the balance sheet
+    - Depending on where we are in the season, will be forecasting different things
+        - Forecast planted acres... won't find out until halfway through spring but can use prices of corn and soybeans -> estimations
+
+
+Short-Term Focus
+- Wheat: Harvested
+- Soybeans: Planted
+- Corn: Planted
+- Production (Acreage and Total Production), stocks to use and how it affects price (bottom line of the WASDE balance sheet)
+    - How does stocks to use affect the ETF? 
+    - Connect the two, find a signal (speculative)
+- Build naive balance sheet forecast, then expand
+
+Milestones
+1. Successfully pull and display data
+2. Naive balance sheet forecast using a simple ARIMA model
+3. Future planning
